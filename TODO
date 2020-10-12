@@ -1,8 +1,37 @@
+TODO:
+  ✔ asyncDataで「connect ECONNREFUSED 127.0.0.1:3000」が出る @done(20-10-12 20:23)
+  ✔ webfont（https://qiita.com/taakuuyaa/items/98f1911934704c538593） @done(20-10-12 20:23)
+  ☐ bootstrapIcon（https://icons.getbootstrap.com/）
+  ☐ cssを外部ファイルとして出力
+  ☐ カルーセル（https://www.npmjs.com/package/vue-slick-carousel）
+  ☐ ギャリー画像（https://www.npmjs.com/package/vue-image-lightbox）
+  ☐ モーダル
+  ☐ アコーディオン
+  ☐ スクロール連動
+  ☐ カウントアップ
+  ☐ ページ内リンク（https://www.npmjs.com/package/vue-scrollto）
+  ☐ SVGアニメーション
+  ☐ タブ切り替え
+  ☐ スライドして流れる企業ロゴ
+  ☐ グラフ（chart.js）
+  ☐ もっと見るボタン
+  ☐ スケルトンローダー
+  ☐ ページ初期読み込みアニメーション
+  ☐ lottie
+  ☐ jsの書き出され方調査
+  ☐ APIを利用してのデータ表示／ページ書き出し
+
+
 読んでおく:
-  ☐ https://blog.photosynthesic.jp/2018/11/nuxt-js%E3%81%A7%E3%81%95%E3%81%8F%E3%81%A3%E3%81%A8%E9%9D%99%E7%9A%84%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/
-  ☐ https://www.dkrk-blog.net/vue-nuxt/nuxt-generate-routes
-  ☐ https://microcms.io/blog/nuxt-full-static-generation/
-  ☐ https://ja.nuxtjs.org/api/configuration-generate/
+  ✔ https://blog.photosynthesic.jp/2018/11/nuxt-js%E3%81%A7%E3%81%95%E3%81%8F%E3%81%A3%E3%81%A8%E9%9D%99%E7%9A%84%E3%82%B5%E3%82%A4%E3%83%88%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86/ @done(20-10-12 20:23)
+  ✔ https://www.dkrk-blog.net/vue-nuxt/nuxt-generate-routes @done(20-10-12 20:26)
+  ✔ https://microcms.io/blog/nuxt-full-static-generation/ @done(20-10-12 20:26)
+  ✔ https://ja.nuxtjs.org/api/configuration-generate/ @done(20-10-12 20:26)
+  ✔ https://dev.ore-shika.com/post/nuxtjs-error-econnrefused/ @done(20-10-12 20:26)
+  ✔ https://qiita.com/pikanji/items/111cfb353bd6ec1eabb5 @done(20-10-12 20:26)
+  ☐ https://getbootstrap.jp/docs/4.1/getting-started/theming/
+  ✔ https://ja.nuxtjs.org/api/pages-head/ @done(20-10-12 20:27)
+  ☐ https://fonts.google.com/
 
 最後に対応:
   ☐ mixinsにまとめるスクリプトあるか検討

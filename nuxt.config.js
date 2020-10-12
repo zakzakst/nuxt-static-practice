@@ -1,3 +1,6 @@
+// 外部APIを利用してのページ書き出しに必要？
+// const pageList = require('https://data.com//path/to/data.json')
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -17,6 +20,7 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    '@/assets/style.scss',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -34,6 +38,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-webfontloader',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -41,5 +46,26 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  }
+  },
+
+  // 外部APIを利用してのページ書き出しに必要？
+  // generate: {
+  //   routes() {
+  //     return pageList.map(page => {
+  //       return `page`
+  //     })
+  //   }
+  // },
+
+  styleResources: {
+    scss: [
+      '@/assets/sass/base/_variables.scss'
+    ]
+  },
+
+  webfontloader: {
+    google: {
+      families: ['Noto+Sans+JP:wght@100;300;700;900']
+    }
+  },
 }
