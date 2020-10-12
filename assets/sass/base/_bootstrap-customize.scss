@@ -1,0 +1,76 @@
+// Your variable overrides
+// 参照：node_modules\bootstrap\scss\_variables.scss
+$grid-gutter-width: 16px !default;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+);
+$spacer: 4px !default;
+$spacers: (
+  0: 0,
+  1: ($spacer),
+  2: ($spacer * 2),
+  3: ($spacer * 3),
+  4: ($spacer * 4),
+  5: ($spacer * 5),
+  6: ($spacer * 6),
+  7: ($spacer * 7),
+  8: ($spacer * 8),
+  9: ($spacer * 9),
+  10: ($spacer * 10),
+  11: ($spacer * 11),
+  12: ($spacer * 12)
+);
+
+// Required
+@import "@/node_modules/bootstrap/scss/functions";
+@import "@/node_modules/bootstrap/scss/variables";
+@import "@/node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "@/node_modules/bootstrap/scss/grid";
+@import "@/node_modules/bootstrap/scss/utilities/spacing";
+
+
+
+
+
+// @import "@/node_modules/bootstrap/scss/root";
+// @import "@/node_modules/bootstrap/scss/reboot";
+// @import "@/node_modules/bootstrap/scss/images";
+// @import "@/node_modules/bootstrap/scss/code";
+// @import "@/node_modules/bootstrap/scss/type";
+// @import "@/node_modules/bootstrap/scss/grid";
+// @import "@/node_modules/bootstrap/scss/tables";
+// @import "@/node_modules/bootstrap/scss/forms";
+// @import "@/node_modules/bootstrap/scss/buttons";
+// @import "@/node_modules/bootstrap/scss/transitions";
+// @import "@/node_modules/bootstrap/scss/dropdown";
+// @import "@/node_modules/bootstrap/scss/button-group";
+// @import "@/node_modules/bootstrap/scss/input-group";
+// @import "@/node_modules/bootstrap/scss/custom-forms";
+// @import "@/node_modules/bootstrap/scss/nav";
+// @import "@/node_modules/bootstrap/scss/navbar";
+// @import "@/node_modules/bootstrap/scss/card";
+// @import "@/node_modules/bootstrap/scss/breadcrumb";
+// @import "@/node_modules/bootstrap/scss/pagination";
+// @import "@/node_modules/bootstrap/scss/badge";
+// @import "@/node_modules/bootstrap/scss/jumbotron";
+// @import "@/node_modules/bootstrap/scss/alert";
+// @import "@/node_modules/bootstrap/scss/progress";
+// @import "@/node_modules/bootstrap/scss/media";
+// @import "@/node_modules/bootstrap/scss/list-group";
+// @import "@/node_modules/bootstrap/scss/close";
+// @import "@/node_modules/bootstrap/scss/modal";
+// @import "@/node_modules/bootstrap/scss/tooltip";
+// @import "@/node_modules/bootstrap/scss/popover";
+// @import "@/node_modules/bootstrap/scss/carousel";
+// @import "@/node_modules/bootstrap/scss/utilities";
+// @import "@/node_modules/bootstrap/scss/print";
