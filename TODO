@@ -1,8 +1,6 @@
 TODO:
   ☐ bootstrapIcon（https://icons.getbootstrap.com/）
   ☐ cssを外部ファイルとして出力
-  ☐ カルーセル（https://www.npmjs.com/package/vue-slick-carousel）
-  ☐ ギャラリー画像（https://www.npmjs.com/package/vue-image-lightbox）
   ☐ モーダル
   ☐ アコーディオン
   ☐ スクロール連動
@@ -17,6 +15,10 @@ TODO:
   ☐ lottie
   ☐ jsの書き出され方調査
   ☐ APIを利用してのデータ表示／ページ書き出し
+  ☐ PWA
+  ☐ キャッシュ
+  ☐ ストレージ
+  ☐ 申し込みフォーム
 
 読んでおく:
   ☐ https://getbootstrap.jp/docs/4.1/getting-started/theming/
@@ -27,6 +29,8 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ カルーセル（https://www.npmjs.com/package/vue-slick-carousel、https://codesandbox.io/s/ouuk7?file=/pages/index.vue） @done(20-10-13 20:29) @project(TODO)
+  ✔ ギャラリー画像（https://www.npmjs.com/package/vue-image-lightbox） @done(20-10-13 20:29) @project(TODO)
   ✔ ページ内リンク（https://www.npmjs.com/package/vue-scrollto、https://qiita.com/titaniumkun/items/b615a7eb6ea1719724ab） @done(20-10-13 09:31) @project(TODO)
   ✔ asyncDataで「connect ECONNREFUSED 127.0.0.1:3000」が出る @done(20-10-12 20:23) @project(TODO)
   ✔ webfont（https://qiita.com/taakuuyaa/items/98f1911934704c538593） @done(20-10-12 20:23) @project(TODO)
@@ -42,3 +46,5 @@ Memo:
   ■■■ 参考 ■■■
 
   ■■■ 反省など ■■■
+  ・「vue-image-lightbox」は「mode: 'client'」にしないとエラー出る。ページで利用するときはno-ssrでなくclient-onlyを利用
+  https://qiita.com/su_mi1228/items/4e39c2ae5f45413a85be

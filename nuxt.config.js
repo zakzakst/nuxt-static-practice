@@ -21,11 +21,16 @@ export default {
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     '@/assets/style.scss',
+    // 'vue-slick-carousel/dist/vue-slick-carousel.css',
+    // 'vue-slick-carousel/dist/vue-slick-carousel-theme.css',
+    // 'vue-image-lightbox/dist/vue-image-lightbox.min.css',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    {src: '~/plugins/vue-scrollto'}
+    {src: '~/plugins/vue-scrollto'},
+    {src: './plugins/vue-slick-carousel'},
+    {src: './plugins/vue-image-lightbox', mode: 'client'},
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
