@@ -57,7 +57,8 @@ export default {
   build: {
     transpile: [
       'vee-validate/dist/rules'
-    ]
+    ],
+    extractCSS: true,
   },
 
   // 外部APIを利用してのページ書き出しに必要？
@@ -81,5 +82,5 @@ export default {
     }
   },
 
-  loading: '@/components/loading.vue'
+  loading: '@/components/loading.vue',
 }
