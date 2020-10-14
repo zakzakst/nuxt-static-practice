@@ -1,5 +1,4 @@
 TODO:
-  ☐ SVGアニメーション
   ☐ 申し込みフォーム（https://qiita.com/fussy113/items/2693f3911f74b4b575a2、https://qiita.com/yoshi0518/items/574c6b8dc81c95f00fd4、https://dev.classmethod.jp/articles/tried-using-veevalidate/）→バリデーション発火タイミングとsubmit時の状態チェックの設定ができない
   ☐ スクロール連動
   ☐ APIを利用してのデータ表示／ページ書き出し
@@ -29,6 +28,7 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ SVGアニメーション（snapsvg-cjsを利用） @done(20-10-15 01:16) @project(TODO)
   ✔ ページ初期読み込みアニメーション（https://ja.nuxtjs.org/api/configuration-loading/、https://kkznch.hatenablog.com/entry/2018/11/27/143022） @done(20-10-15 00:34) @project(TODO)
   ✔ カウントアップ（https://jp.vuejs.org/v2/guide/transitioning-state.html#ウォッチャによる状態のアニメーション） @done(20-10-14 20:24) @project(TODO)
   ✔ クッキー（https://www.npmjs.com/package/cookie-universal-nuxt） @done(20-10-14 20:24) @project(TODO)
