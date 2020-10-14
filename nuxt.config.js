@@ -48,6 +48,7 @@ export default {
     '@nuxtjs/axios',
     'nuxt-webfontloader',
     'cookie-universal-nuxt',
+    'nuxt-svg-loader'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
