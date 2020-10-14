@@ -79,4 +79,6 @@ export default {
       families: ['Noto+Sans+JP:wght@100;300;700;900']
     }
   },
+
+  loading: '@/components/loading.vue'
 }
