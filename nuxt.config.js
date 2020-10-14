@@ -29,8 +29,9 @@ export default {
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
     {src: '~/plugins/vue-scrollto'},
-    {src: './plugins/vue-slick-carousel'},
-    {src: './plugins/vue-image-lightbox', mode: 'client'},
+    {src: '~/plugins/vue-slick-carousel'},
+    {src: '~/plugins/vue-image-lightbox', mode: 'client'},
+    {src: '~/plugins/vee-validate'},
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -45,6 +46,7 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     'nuxt-webfontloader',
+    'cookie-universal-nuxt',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -52,6 +54,9 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    transpile: [
+      'vee-validate/dist/rules'
+    ]
   },
 
   // 外部APIを利用してのページ書き出しに必要？
