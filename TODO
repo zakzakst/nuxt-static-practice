@@ -3,12 +3,13 @@ TODO:
   ☐ スクロール連動
   ☐ APIを利用してのデータ表示／ページ書き出し
   ☐ bootstrapIcon（https://icons.getbootstrap.com/）
-  ☐ cssを外部ファイルとして出力
+  ✔ cssを外部ファイルとして出力（https://vue-loader-v14.vuejs.org/ja/configurations/extract-css.html、時間あるときこっちも見るhttps://vue-loader-v14.vuejs.org/ja/configurations/extract-css.html） @done(20-10-15 07:39)
   ☐ jsの書き出され方調査
   ☐ storeがどう動くか調査
   ☐ PWA
   ☐ ストレージ
   ☐ lottie
+  ☐ GoogleAnalytics
 
 優先度低:
   ☐ グラフ（chart.js）（https://github.com/zakzakst/spa-01/tree/master/components データの外部化も対応する）
