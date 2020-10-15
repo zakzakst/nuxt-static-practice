@@ -1,7 +1,5 @@
 TODO:
   ☐ 申し込みフォーム（https://qiita.com/fussy113/items/2693f3911f74b4b575a2、https://qiita.com/yoshi0518/items/574c6b8dc81c95f00fd4、https://dev.classmethod.jp/articles/tried-using-veevalidate/）→バリデーション発火タイミングとsubmit時の状態チェックの設定ができない
-  ☐ スクロール連動
-  ☐ APIを利用してのデータ表示／ページ書き出し
   ☐ jsの書き出され方調査
   ☐ storeがどう動くか調査
   ☐ PWA
@@ -27,6 +25,8 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ スクロール連動（https://www.to-r.net/media/scrolltrigger/）→pluginsに登録したかったが、上手くできなかった→一旦モジュールごとに呼び出す対応 @done(20-10-15 23:28) @project(TODO)
+  ✔ APIを利用してのデータ表示／ページ書き出し（時間あるときこっちも見るhttps://blog.cloud-acct.com/posts/blog-nuxtjs-generate-routes/） @done(20-10-15 08:27) @project(TODO)
   ✔ bootstrapIcon（https://icons.getbootstrap.com/、https://qiita.com/mr_xkun/items/e76072eaa9805ca59837） @done(20-10-15 08:05) @project(TODO)
   ✔ cssを外部ファイルとして出力（https://vue-loader-v14.vuejs.org/ja/configurations/extract-css.html、時間あるときこっちも見るhttps://vue-loader-v14.vuejs.org/ja/configurations/extract-css.html） @done(20-10-15 07:39) @project(TODO)
   ✔ SVGアニメーション（snapsvg-cjsを利用） @done(20-10-15 01:16) @project(TODO)
