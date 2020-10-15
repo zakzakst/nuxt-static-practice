@@ -1,5 +1,5 @@
-// 外部APIを利用してのページ書き出しに必要？
-// const pageList = require('https://data.com//path/to/data.json')
+// 動的ルーティング用のデータ読み込み
+const pageList = require('./static/data/route-params.json')
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -28,11 +28,11 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    {src: '~/plugins/vue-scrollto'},
-    {src: '~/plugins/vue-slick-carousel'},
-    {src: '~/plugins/vue-image-lightbox', mode: 'client'},
-    {src: '~/plugins/vee-validate'},
-    {src: '~/plugins/snapsvg-cjs', mode: 'client'},
+    {src: '@/plugins/vue-scrollto'},
+    {src: '@/plugins/vue-slick-carousel'},
+    {src: '@/plugins/vue-image-lightbox', mode: 'client'},
+    {src: '@/plugins/vee-validate'},
+    {src: '@/plugins/snapsvg-cjs', mode: 'client'},
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -57,19 +57,20 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     transpile: [
-      'vee-validate/dist/rules'
+      'gsap',
+      'vee-validate/dist/rules',
     ],
     extractCSS: true,
   },
 
-  // 外部APIを利用してのページ書き出しに必要？
-  // generate: {
-  //   routes() {
-  //     return pageList.map(page => {
-  //       return `page`
-  //     })
-  //   }
-  // },
+  // 動的ルーティングの追加
+  generate: {
+    routes() {
+      return pageList.map(page => {
+        return `/finish/route/${page}`
+      })
+    }
+  },
 
   styleResources: {
     scss: [
