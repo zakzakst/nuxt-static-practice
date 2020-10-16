@@ -12,12 +12,6 @@ extend('email', email)
 // メッセージを設定
 localize('ja', ja)
 
-// デフォルトの発火イベントを無効にする
-// Vue.use(VeeValidate, {
-//   events: '',
-//   inject: false
-// })
-
 // コンポーネントの登録
 Vue.component('ValidationProvider', ValidationProvider)
 Vue.component('ValidationObserver', ValidationObserver)

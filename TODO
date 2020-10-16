@@ -1,5 +1,4 @@
 TODO:
-  ☐ 申し込みフォーム（https://qiita.com/fussy113/items/2693f3911f74b4b575a2、https://qiita.com/yoshi0518/items/574c6b8dc81c95f00fd4、https://dev.classmethod.jp/articles/tried-using-veevalidate/）→バリデーション発火タイミングとsubmit時の状態チェックの設定ができない
   ☐ jsの書き出され方調査
   ☐ storeがどう動くか調査
   ☐ PWA
@@ -24,6 +23,7 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ 申し込みフォーム（https://qiita.com/fussy113/items/2693f3911f74b4b575a2、https://qiita.com/yoshi0518/items/574c6b8dc81c95f00fd4、https://dev.classmethod.jp/articles/tried-using-veevalidate/）→バリデーション発火タイミングとsubmit時の状態チェックの設定ができない→「data-vv-validate-on」で設定（https://vee-validate.logaretm.com/v2/guide/events.html#changing-events-per-field） @done(20-10-17 00:26) @project(TODO)
   ✔ ストレージ（https://mebee.info/2019/12/25/post-4710/） @done(20-10-16 23:45) @project(TODO)
   ✔ sitemap.xml（https://mebee.info/2020/03/02/post-5489/、https://qiita.com/bucchi49/items/d271c4010a3f6c900926、https://www.npmjs.com/package/@nuxtjs/sitemap）→今度APIからの読み込みもやってみる @done(20-10-16 23:22) @project(TODO)
   ✔ スクロール連動（https://www.to-r.net/media/scrolltrigger/）→pluginsに登録したかったが、上手くできなかった→一旦モジュールごとに呼び出す対応 @done(20-10-15 23:28) @project(TODO)
