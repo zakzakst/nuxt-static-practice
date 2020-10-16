@@ -33,6 +33,7 @@ export default {
     {src: '@/plugins/vue-image-lightbox', mode: 'client'},
     {src: '@/plugins/vee-validate'},
     {src: '@/plugins/snapsvg-cjs', mode: 'client'},
+    {src: '@/plugins/vuex-persistedstate', mode: 'client'},
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -48,7 +49,8 @@ export default {
     '@nuxtjs/axios',
     'nuxt-webfontloader',
     'cookie-universal-nuxt',
-    'nuxt-svg-loader'
+    'nuxt-svg-loader',
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -85,4 +87,22 @@ export default {
   },
 
   loading: '@/components/loading.vue',
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://example.com',
+    exclude: [
+      '/hold/vee-validate'
+    ],
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    },
+    routes() {
+      return pageList.map(page => {
+        return `/finish/route/${page}`
+      })
+    }
+  }
 }

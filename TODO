@@ -3,7 +3,6 @@ TODO:
   ☐ jsの書き出され方調査
   ☐ storeがどう動くか調査
   ☐ PWA
-  ☐ ストレージ
   ☐ lottie
   ☐ GoogleAnalytics
 
@@ -25,6 +24,8 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ ストレージ（https://mebee.info/2019/12/25/post-4710/） @done(20-10-16 23:45) @project(TODO)
+  ✔ sitemap.xml（https://mebee.info/2020/03/02/post-5489/、https://qiita.com/bucchi49/items/d271c4010a3f6c900926、https://www.npmjs.com/package/@nuxtjs/sitemap）→今度APIからの読み込みもやってみる @done(20-10-16 23:22) @project(TODO)
   ✔ スクロール連動（https://www.to-r.net/media/scrolltrigger/）→pluginsに登録したかったが、上手くできなかった→一旦モジュールごとに呼び出す対応 @done(20-10-15 23:28) @project(TODO)
   ✔ APIを利用してのデータ表示／ページ書き出し（時間あるときこっちも見るhttps://blog.cloud-acct.com/posts/blog-nuxtjs-generate-routes/） @done(20-10-15 08:27) @project(TODO)
   ✔ bootstrapIcon（https://icons.getbootstrap.com/、https://qiita.com/mr_xkun/items/e76072eaa9805ca59837） @done(20-10-15 08:05) @project(TODO)
