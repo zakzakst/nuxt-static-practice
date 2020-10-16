@@ -91,9 +91,9 @@ export default {
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://example.com',
-    exclude: [
-      '/hold/vee-validate'
-    ],
+    // exclude: [
+    //   '/hold/vee-validate'
+    // ],
     defaults: {
       changefreq: 'daily',
       priority: 1,
