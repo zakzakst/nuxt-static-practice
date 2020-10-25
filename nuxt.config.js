@@ -34,6 +34,7 @@ export default {
     {src: '@/plugins/vee-validate'},
     {src: '@/plugins/snapsvg-cjs', mode: 'client'},
     {src: '@/plugins/vuex-persistedstate', mode: 'client'},
+    {src: '@/plugins/vue-good-table', mode: 'client'},
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -86,7 +87,7 @@ export default {
     }
   },
 
-  loading: '@/components/loading.vue',
+  // loading: '@/components/loading.vue',
 
   sitemap: {
     path: '/sitemap.xml',
