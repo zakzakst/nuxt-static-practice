@@ -1,14 +1,12 @@
 TODO:
   ☐ メタタグの共通設定など（構造化データも）
-  ☐ Vue-good-table（https://www.kabanoki.net/3230/）
-  ☐ vuejs-datepicker（https://qiita.com/ksk_diffeasy/items/e7722e1200ba704bcd21）
   ☐ カレンダー（https://www.virment.com/nuxt-jsでfullcalendarを使う/）
   ☐ SVGで地図
+  ☐ GoogleAnalytics
   ☐ jsの書き出され方調査（light houseのスコア）
   ☐ storeがどう動くか調査
   ☐ PWA
   ☐ lottie
-  ☐ GoogleAnalytics
   ☐ Linter
   ☐ アプリテスト
 
@@ -28,6 +26,8 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ vuejs-datepicker（https://qiita.com/ksk_diffeasy/items/e7722e1200ba704bcd21、https://qiita.com/whw3312/items/5465081dbe8a81f9e7d4） @done(20-10-25 16:37) @project(TODO)
+  ✔ Vue-good-table（https://www.kabanoki.net/3230/） @done(20-10-25 14:52) @project(TODO)
   ✘ グラフ（chart.js）（https://github.com/zakzakst/spa-01/tree/master/components データの外部化も対応する） @cancelled(20-10-25 04:21) @project(優先度低)
   ✘ スライドして流れる企業ロゴ（slickのオプションで対応） @cancelled(20-10-25 04:21) @project(優先度低)
   ✔ 申し込みフォーム（https://qiita.com/fussy113/items/2693f3911f74b4b575a2、https://qiita.com/yoshi0518/items/574c6b8dc81c95f00fd4、https://dev.classmethod.jp/articles/tried-using-veevalidate/）→バリデーション発火タイミングとsubmit時の状態チェックの設定ができない→「data-vv-validate-on」で設定（https://vee-validate.logaretm.com/v2/guide/events.html#changing-events-per-field） @done(20-10-17 00:26) @project(TODO)

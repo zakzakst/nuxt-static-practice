@@ -35,6 +35,7 @@ export default {
     {src: '@/plugins/snapsvg-cjs', mode: 'client'},
     {src: '@/plugins/vuex-persistedstate', mode: 'client'},
     {src: '@/plugins/vue-good-table', mode: 'client'},
+    {src: '@/plugins/vuejs-datepicker', mode: 'client'},
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -62,6 +63,7 @@ export default {
     transpile: [
       'gsap',
       'vee-validate/dist/rules',
+      'vuejs-datepicker',
     ],
     extractCSS: true,
   },
