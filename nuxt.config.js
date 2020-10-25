@@ -7,14 +7,22 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'nuxt-static-practice',
+    title: process.env.SITE_NAME,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: process.env.SITE_DESCRIPTION },
+      { hid: 'keywords', name: 'keywords', content: process.env.SITE_KEYWORDS },
+      { hid: 'og:site_name', property: 'og:site_name', content: process.env.SITE_NAME },
+      { hid: 'og:type', property: 'og:type', content: process.env.SITE_OG_TYPE },
+      { hid: 'og:url', property: 'og:url', content: process.env.SITE_DOMAIN + process.env.SITE_PATH },
+      { hid: 'og:title', property: 'og:title', content: process.env.SITE_NAME },
+      { hid: 'og:description', property: 'og:description', content: process.env.SITE_DESCRIPTION },
+      { hid: 'og:image', property: 'og:image', content: process.env.SITE_DOMAIN + process.env.SITE_PATH + process.env.SITE_OG_IMAGE },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'shortcut icon', type: 'image/x-icon', href: process.env.SITE_PATH + process.env.SITE_FAVICON },
+      { rel: 'apple-touch-icon', type: 'image/png', href: process.env.SITE_PATH + process.env.SITE_APPLE_ICON }
     ]
   },
 
@@ -36,6 +44,7 @@ export default {
     {src: '@/plugins/vuex-persistedstate', mode: 'client'},
     {src: '@/plugins/vue-good-table', mode: 'client'},
     {src: '@/plugins/vuejs-datepicker', mode: 'client'},
+    // {src: '@/plugins/vue-full-calendar', mode: 'client'},
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -53,6 +62,7 @@ export default {
     'cookie-universal-nuxt',
     'nuxt-svg-loader',
     '@nuxtjs/sitemap',
+    '@nuxtjs/dotenv',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -93,10 +103,10 @@ export default {
 
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://example.com',
-    // exclude: [
-    //   '/hold/vee-validate'
-    // ],
+    hostname: process.env.SITE_DOMAIN,
+    exclude: [
+      '/hold/calendar'
+    ],
     defaults: {
       changefreq: 'daily',
       priority: 1,

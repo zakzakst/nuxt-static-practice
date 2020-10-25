@@ -1,14 +1,15 @@
 TODO:
-  ☐ メタタグの共通設定など（構造化データも）
-  ☐ カレンダー（https://www.virment.com/nuxt-jsでfullcalendarを使う/）
-  ☐ SVGで地図
-  ☐ GoogleAnalytics
+  ☐ GoogleAnalytics（https://ja.nuxtjs.org/faq/ga/、https://qiita.com/TK-C/items/3df0420240badd824db6）→そもそもGAがあまり分からない。一旦保留
   ☐ jsの書き出され方調査（light houseのスコア）
   ☐ storeがどう動くか調査
+  ☐ SVGで地図
+  ☐ カレンダー（https://www.virment.com/nuxt-jsでfullcalendarを使う/）→上手くいかない。一旦保留
   ☐ PWA
   ☐ lottie
   ☐ Linter
   ☐ アプリテスト
+  ☐ envでタイトルに「テスト環境」などの文言を付与
+  ☐ jsonldやmetaデータのmixins化できないか？（mixinsを読み込んでいるページの「head()」との競合が上手くいっていない）
 
 優先度低:
   ☐ スケルトンローダー
@@ -26,6 +27,7 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ メタタグの共通設定など（構造化データのパンくずとの連動）（https://qiita.com/ryota-yamamoto/items/2c43c606d9a96fc4de5f、https://www.npmjs.com/package/nuxt-jsonld）→npmのパッケージあったが、スクラッチの対応で大丈夫だと判断 @done(20-10-26 08:14) @project(TODO)
   ✔ vuejs-datepicker（https://qiita.com/ksk_diffeasy/items/e7722e1200ba704bcd21、https://qiita.com/whw3312/items/5465081dbe8a81f9e7d4） @done(20-10-25 16:37) @project(TODO)
   ✔ Vue-good-table（https://www.kabanoki.net/3230/） @done(20-10-25 14:52) @project(TODO)
   ✘ グラフ（chart.js）（https://github.com/zakzakst/spa-01/tree/master/components データの外部化も対応する） @cancelled(20-10-25 04:21) @project(優先度低)
@@ -63,3 +65,6 @@ Memo:
 
   ・「gsap.to」で数字の変化もさせられる。
   https://jp.vuejs.org/v2/guide/transitioning-state.html#ウォッチャによる状態のアニメーション
+
+  ・jsonldの追記の時に「&quot;」が入ってしまうことへの対応
+  https://github.com/nuxt/nuxt.js/issues/1164
