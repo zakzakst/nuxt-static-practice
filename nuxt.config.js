@@ -52,6 +52,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    // '@nuxtjs/google-analytics',
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -63,6 +64,7 @@ export default {
     'nuxt-svg-loader',
     '@nuxtjs/sitemap',
     '@nuxtjs/dotenv',
+    '@nuxtjs/google-analytics',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -117,5 +119,14 @@ export default {
         return `/finish/route/${page}`
       })
     }
-  }
+  },
+
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID,
+    // debug: {
+    //   enabled: process.env.NODE_ENV === 'production',    // default value is false
+    //   trace: process.env.NODE_ENV === 'production',      // default value is false
+    //   sendHitTask: process.env.NODE_ENV === 'production' // default value is false
+    // }
+  },
 }
