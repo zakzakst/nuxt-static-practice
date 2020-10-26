@@ -1,5 +1,4 @@
 TODO:
-  ☐ GoogleAnalytics（https://ja.nuxtjs.org/faq/ga/、https://qiita.com/TK-C/items/3df0420240badd824db6）→そもそもGAがあまり分からない。一旦保留
   ☐ jsの書き出され方調査（light houseのスコア）
   ☐ storeがどう動くか調査
   ☐ SVGで地図
@@ -27,6 +26,7 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ GoogleAnalytics（https://ja.nuxtjs.org/faq/ga/、https://qiita.com/TK-C/items/3df0420240badd824db6）→計測・イベント取得まで @done(20-10-26 09:56) @project(TODO)
   ✔ メタタグの共通設定など（構造化データのパンくずとの連動）（https://qiita.com/ryota-yamamoto/items/2c43c606d9a96fc4de5f、https://www.npmjs.com/package/nuxt-jsonld）→npmのパッケージあったが、スクラッチの対応で大丈夫だと判断 @done(20-10-26 08:14) @project(TODO)
   ✔ vuejs-datepicker（https://qiita.com/ksk_diffeasy/items/e7722e1200ba704bcd21、https://qiita.com/whw3312/items/5465081dbe8a81f9e7d4） @done(20-10-25 16:37) @project(TODO)
   ✔ Vue-good-table（https://www.kabanoki.net/3230/） @done(20-10-25 14:52) @project(TODO)
@@ -58,6 +58,10 @@ Archive:
 
 Memo:
   ■■■ 参考 ■■■
+  ・GAの設定。デバッグモードもあり、開発中は送信しないようにもできる。
+  （https://www.memory-lovers.blog/entry/2018/11/20/140245）
+
+  ・GAのプラグインnuxtのバージョンが2.8より低い場合はnuxt.configの「buildModules」ではなく「modules」のほうに記載する？
 
   ■■■ 反省など ■■■
   ・「vue-image-lightbox」は「mode: 'client'」にしないとエラー出る。ページで利用するときはno-ssrでなくclient-onlyを利用
