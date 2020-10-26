@@ -3,12 +3,14 @@ TODO:
   ☐ storeがどう動くか調査
   ☐ SVGで地図
   ☐ カレンダー（https://www.virment.com/nuxt-jsでfullcalendarを使う/）→上手くいかない。一旦保留
+  ☐ 動画再生→video.jsは上手くいかなかったので、保留（https://videojs.com/、https://qiita.com/yun_bow/items/fe94d95c4eb4dc3a0803、https://docs.videojs.com/tutorial-vue.html）
   ☐ PWA
   ☐ lottie
   ☐ Linter
   ☐ アプリテスト
   ☐ envでタイトルに「テスト環境」などの文言を付与
   ☐ jsonldやmetaデータのmixins化できないか？（mixinsを読み込んでいるページの「head()」との競合が上手くいっていない）
+  ☐ TypeScript（https://blog.proglearn.com/2019/11/26/【19年11月最新】nuxt-js上でtypescriptを設定する手順/）
 
 優先度低:
   ☐ スケルトンローダー
@@ -26,6 +28,7 @@ TODO:
   ☐ 最後にVScodeまわりの修正あれば「00」のほうにコピーしておく
 
 Archive:
+  ✔ 動画再生スクラッチ @done(20-10-27 00:25) @project(TODO)
   ✔ GoogleAnalytics（https://ja.nuxtjs.org/faq/ga/、https://qiita.com/TK-C/items/3df0420240badd824db6）→計測・イベント取得まで @done(20-10-26 09:56) @project(TODO)
   ✔ メタタグの共通設定など（構造化データのパンくずとの連動）（https://qiita.com/ryota-yamamoto/items/2c43c606d9a96fc4de5f、https://www.npmjs.com/package/nuxt-jsonld）→npmのパッケージあったが、スクラッチの対応で大丈夫だと判断 @done(20-10-26 08:14) @project(TODO)
   ✔ vuejs-datepicker（https://qiita.com/ksk_diffeasy/items/e7722e1200ba704bcd21、https://qiita.com/whw3312/items/5465081dbe8a81f9e7d4） @done(20-10-25 16:37) @project(TODO)
