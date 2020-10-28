@@ -1,4 +1,5 @@
 TODO:
+  ☐ Pugの利用
   ☐ jsの書き出され方調査（light houseのスコア）
   ☐ storeがどう動くか調査
   ☐ SVGで地図
@@ -65,6 +66,10 @@ Memo:
   （https://www.memory-lovers.blog/entry/2018/11/20/140245）
 
   ・GAのプラグインnuxtのバージョンが2.8より低い場合はnuxt.configの「buildModules」ではなく「modules」のほうに記載する？
+
+  ・Pugの利用方法
+  https://www.tam-tam.co.jp/tipsnote/html_css/post12789.html
+  https://b1blog.netlify.app/posts/pug-vue/
 
   ■■■ 反省など ■■■
   ・「vue-image-lightbox」は「mode: 'client'」にしないとエラー出る。ページで利用するときはno-ssrでなくclient-onlyを利用
