@@ -6,7 +6,7 @@
   ],
   "settings": {
     "files.exclude": {
-      ".nuxt": true,
+      // ".nuxt": true,
       // "dist": true,
       ".editorconfig": true,
     },
