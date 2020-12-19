@@ -23,7 +23,11 @@ export default {
     link: [
       { rel: 'shortcut icon', type: 'image/x-icon', href: process.env.SITE_PATH + process.env.SITE_FAVICON },
       { rel: 'apple-touch-icon', type: 'image/png', href: process.env.SITE_PATH + process.env.SITE_APPLE_ICON }
-    ]
+    ],
+    script: [
+      // { src: 'https://www.youtube.com/iframe_api' },
+      { src: 'https://www.youtube.com/s/player/2e6e57d8/www-widgetapi.vflset/www-widgetapi.js' },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -44,6 +48,7 @@ export default {
     {src: '@/plugins/vuex-persistedstate', mode: 'client'},
     {src: '@/plugins/vue-good-table', mode: 'client'},
     {src: '@/plugins/vuejs-datepicker', mode: 'client'},
+    {src: '@/plugins/vue-youtube'},
     // {src: '@/plugins/vue-full-calendar', mode: 'client'},
   ],
 
