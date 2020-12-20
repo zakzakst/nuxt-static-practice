@@ -26,7 +26,7 @@ export default {
     ],
     script: [
       // { src: 'https://www.youtube.com/iframe_api' },
-      { src: 'https://www.youtube.com/s/player/2e6e57d8/www-widgetapi.vflset/www-widgetapi.js' },
+      // { src: 'https://www.youtube.com/s/player/2e6e57d8/www-widgetapi.vflset/www-widgetapi.js' },
     ],
   },
 
