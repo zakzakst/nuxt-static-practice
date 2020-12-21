@@ -1,7 +1,13 @@
 // 動的ルーティング用のデータ読み込み
 const pageList = require('./static/data/route-params.json')
 
+// 環境変数の設定
+const environment = process.env.NODE_ENV || 'dev'
+const envSet = require(`./.env.${environment}.js`)
+
 export default {
+  env: envSet,
+
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
@@ -68,8 +74,8 @@ export default {
     'cookie-universal-nuxt',
     'nuxt-svg-loader',
     '@nuxtjs/sitemap',
-    '@nuxtjs/dotenv',
     '@nuxtjs/google-analytics',
+    '@nuxtjs/dotenv',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
