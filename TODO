@@ -71,6 +71,14 @@ Memo:
   https://www.tam-tam.co.jp/tipsnote/html_css/post12789.html
   https://b1blog.netlify.app/posts/pug-vue/
 
+  ・dotenvとcross-envで環境変数を設定して開発環境の処理を切り替える
+  https://www.tam-tam.co.jp/tipsnote/program/post17589.html
+  https://qiita.com/TakahiRoyte/items/c152ad8baa191ed1f8ae
+  ※dotenvはコミット対象外の.envで各自が設定を変更したり、外部に漏らしてはいけないデータを扱う場合に使う
+  ※cross-envは開発用と公開用でデータや処理を切り替えたい場合に使う
+  ※dotenvで環境切り替えもできるみたいだが、上手くいかなかった
+  https://blog.ikedaosushi.com/entry/2019/04/17/220317
+
   ■■■ 反省など ■■■
   ・「vue-image-lightbox」は「mode: 'client'」にしないとエラー出る。ページで利用するときはno-ssrでなくclient-onlyを利用
   https://qiita.com/su_mi1228/items/4e39c2ae5f45413a85be

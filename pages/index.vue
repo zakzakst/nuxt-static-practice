@@ -1,27 +1,18 @@
 <template>
   <div>
-    <p @click="changeText('mapActions練習')">{{ text }}</p>
-    <p @click="changeCount(10)">{{ count }}</p>
+    {{ env }}
   </div>
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
-
 export default {
   data() {
     return {
+      env: process.env.ENV_MODE
     }
   },
-  computed: {
-    // ...mapGetters({
-    //   text: 'mapgetters/text',
-    //   count: 'mapgetters/count',
-    // }),
-    ...mapGetters('mapstore', ['text', 'count']),
-  },
-  methods: {
-    ...mapActions('mapstore', ['changeText', 'changeCount']),
+  created() {
+    console.log(process.env.ENV_MODE);
   }
 }
 </script>

@@ -6,7 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "devProd": "cross-env NODE_ENV=prod nuxt",
+    "devDev": "cross-env NODE_ENV=dev nuxt"
   },
   "dependencies": {
     "@fullcalendar/core": "^5.3.1",
@@ -38,6 +40,8 @@
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
     "moment": "^2.29.1",
     "node-sass": "^4.14.1",
     "nuxt-svg-loader": "^1.2.0",
