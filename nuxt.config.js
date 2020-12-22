@@ -2,11 +2,11 @@
 const pageList = require('./static/data/route-params.json')
 
 // 環境変数の設定
-const environment = process.env.NODE_ENV || 'dev'
-const envSet = require(`./.env.${environment}.js`)
+// const environment = process.env.NODE_ENV || 'dev'
+// const envSet = require(`./.env.${environment}.js`)
 
 export default {
-  env: envSet,
+  // env: envSet,
 
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
