@@ -8,6 +8,8 @@ const pageList = require('./static/data/route-params.json')
 export default {
   // env: envSet,
 
+  // ssr: false,
+
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
@@ -113,6 +115,14 @@ export default {
   },
 
   // loading: '@/components/loading.vue',
+
+  // SPAモードでのみ利用可能
+  // loading: { color: '#ffa502' },
+  // loadingIndicator: {
+  //   name: 'circle',
+  //   color: '#ffa502',
+  //   background: '#fff',
+  // },
 
   sitemap: {
     path: '/sitemap.xml',
