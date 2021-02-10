@@ -62,6 +62,9 @@ Archive:
 
 Memo:
   ■■■ 参考 ■■■
+  ・SPAモードでのローディング表示
+  https://ja.nuxtjs.org/docs/2.x/configuration-glossary/configuration-loading-indicator/
+
   ・GAの設定。デバッグモードもあり、開発中は送信しないようにもできる。
   （https://www.memory-lovers.blog/entry/2018/11/20/140245）
 
